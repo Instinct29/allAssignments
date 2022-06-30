@@ -3,6 +3,7 @@ import Note from './Note'
 import Header from './Header'
 import Footer from "./Footer.js"
 import CreateArea from "./CreateArea"
+import NavBar from '../../components/navBar/NavBar'
 
 const getLocalStorage = () =>{
   let list = localStorage.getItem('Lstorage');
@@ -51,7 +52,7 @@ function App() {
 
   return (
     <>
-    <Header />
+    <NavBar />
     <CreateArea addNote={addNote}/>
     {
       notes.map((note,index)=>{

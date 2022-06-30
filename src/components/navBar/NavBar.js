@@ -13,16 +13,19 @@ const NavBar = () => {
                 <a class="link link-active" href='/'>Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/Theory">TheoryQns</a>
+                <a class="link" href="/TheoryAns">TheoryQns</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/Form">FormQns</a>
+                <a class="link" href="/FormApp">FormQns</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/remainderapp">Hooks</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/Redux">Redux</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/Redux">Advance React Theory</a>
             </li>
         </ul>
     </nav>
@@ -32,4 +35,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;
