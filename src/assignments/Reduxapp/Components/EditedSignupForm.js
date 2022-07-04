@@ -57,7 +57,7 @@ const EditSignupForm = () => {
 
      // dispatch(updateData(finalData,id))
 
-      navigate("/table")
+      navigate("/Redux/table")
 
    }
 
